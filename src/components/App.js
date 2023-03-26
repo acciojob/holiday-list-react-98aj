@@ -38,7 +38,7 @@ const App = () => {
                {/* Do not remove the main div */}
 
         <ol>
-            {cityList.filter((element)=>{
+            {cityList.map((element)=>{
                 
                 if(element.country=='India'){
                     return (<li>element.name(element.country)</li>)
